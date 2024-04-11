@@ -34,7 +34,5 @@ export const ContainerBox = styled.section`
     gap: 40px;
 `
 export const DivEstilizada = styled.div`
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 10px;
 `

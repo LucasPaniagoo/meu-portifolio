@@ -1,9 +1,9 @@
-import { BadgeEstilizado, Texto } from "../styles/BadgeStyles";
+import { BadgeEstilizado, DivBadge, Texto } from "../styles/BadgeStyles";
 
 const Badge = ({ tecnologias }) => 
 {
     return(
-        <>
+        <DivBadge>
             {tecnologias.map((tecnologia, index) => 
             <div key={index}>
                 <BadgeEstilizado>
@@ -11,7 +11,7 @@ const Badge = ({ tecnologias }) =>
                 </BadgeEstilizado>
             </div>
             )}
-        </>
+        </DivBadge>
 
     )
 }

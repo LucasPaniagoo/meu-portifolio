@@ -5,6 +5,7 @@ import imgEzlinks from './imagens/ezlinks.png';
 import imgTelles from './imagens/telles.png';
 import { useState } from 'react';
 import Badge from './Badge';
+import Links from './Links';
 
 const Projetos = () => 
 {
@@ -76,6 +77,11 @@ const Projetos = () =>
                         </Paragrafo>
                         <DivEstilizada>
                             <Badge tecnologias={projeto.tecnologias} />
+                            <Links
+                                key={projeto.id}
+                                github={projeto.github}
+                                acessoLive={projeto.acesso}
+                            />
                         </DivEstilizada>
                     </ContainerDesc>
                 </Container>

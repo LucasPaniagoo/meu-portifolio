@@ -10,7 +10,7 @@ import Main from "./Componentes/Main";
 
 
 function App() {
-  const [isDarkTheme, setisDarkTheme] = useState(false);
+  const [isDarkTheme, setisDarkTheme] = useState(true);
 
   return (
     <>

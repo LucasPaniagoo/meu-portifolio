@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const DivBadge = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+`
 export const BadgeEstilizado = styled.div`
     width: fit-content;
     background-color: #616161;
