@@ -1,3 +1,4 @@
+import { useState } from "react"
 import styled from "styled-components"
 
 const Section = styled.section`
@@ -25,6 +26,7 @@ const Head = styled.div`
 `
 const Body = styled.div`
     width: 600px;
+    height: fit-content;
     margin-top: 2px;
     background-color: ${(props) => props.theme.secundary};
     display: flex;
@@ -41,6 +43,7 @@ const Body = styled.div`
     }
 `
 const Paragrafo = styled.p`
+        height: fit-content;
         font-family: 'Ubuntu', sans-serif;
         font-size: 16px;
         font-weight: 400;
@@ -49,9 +52,10 @@ const Paragrafo = styled.p`
         margin: 20px 40px;
 `
 
-const ContainerTemplate = ({ title, titleText = '',  text , children}) => 
+const ContainerTemplate = ({ title, titleText='',  text='', children}) => 
 {
     return(
+        
         <Section>
             <Head>
                 <p>{ title }</p>

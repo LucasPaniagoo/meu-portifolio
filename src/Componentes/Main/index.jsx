@@ -17,11 +17,12 @@ const Main = () =>
                 title={sobreMim.titulo}
                 titleText={sobreMim.destaque}
                 text={sobreMim.texto}
-            />
+            >
+            </ContainerTemplate>
             <ContainerTemplate 
                 title={'Projetos em destaque'}
             >
-                <Projetos />
+                <Projetos/>
             </ContainerTemplate>
         </main>
     )
