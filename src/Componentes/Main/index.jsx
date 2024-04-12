@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import ContainerTemplate from './ContainerTemplate';
 import Projetos from './Projetos';
+import Contatos from './Contatos';
 
 const sobreMim = {
     titulo: 'Sobre Mim',
@@ -43,9 +44,13 @@ const Main = () =>
             <ContainerTemplate 
                 title={'Projetos em destaque'}
             >
-                <ContainerProjetos
-                    ><Projetos/>
+                <ContainerProjetos>
+                    <Projetos/>
                 </ContainerProjetos>
+            </ContainerTemplate>
+            <ContainerTemplate
+                title={'Contatos'}>
+                    <Contatos />
             </ContainerTemplate>
         </main>
     )
