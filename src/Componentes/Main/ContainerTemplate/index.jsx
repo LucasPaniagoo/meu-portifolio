@@ -33,11 +33,11 @@ const Body = styled.div`
     border-radius: 0 0 20px 20px ;
 
 `
-const ContainerTemplate = ({ title, children}) => 
+const ContainerTemplate = ({ title, children, secao}) => 
 {
     return(
         
-        <Section>
+        <Section id={secao}>
             <Head>
                 <p>{ title }</p>
             </Head>

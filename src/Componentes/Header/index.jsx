@@ -48,21 +48,18 @@ const Header = ({ setisDarkTheme, isDarkTheme }) =>
         setisDarkTheme(!isDarkTheme);
     }
     return(
-        <HeaderEstilizado>
+        <HeaderEstilizado id='header'>
            <a href="#">
                 <img src={isDarkTheme ? logoDark : logoLight} alt="Logo" /> 
             </a>
            <div>
-                <a href="#">
-                    <p>Inicio</p>
-                </a>
-                <a href="#">
+                <a href="#sobreMim">
                     <p>Sobre Mim</p>
                 </a>
-                <a href="#">
+                <a href="#projetos">
                     <p>Projetos</p>
                 </a>
-                <a href="#">
+                <a href="#contatos">
                     <p>Contatos</p>
                 </a>
            </div>

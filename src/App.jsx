@@ -7,6 +7,7 @@ import Header from "./Componentes/Header";
 import Banner from "./Componentes/Banner";
 import Tecnologias from "./Componentes/Tecnologias";
 import Main from "./Componentes/Main";
+import Footer from "./Componentes/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Banner />
         <Tecnologias />
         <Main />
+        <Footer />
       </ThemeProvider>
     </>
   )

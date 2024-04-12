@@ -37,19 +37,23 @@ const Main = () =>
         <main>
             <ContainerTemplate 
                 title={sobreMim.titulo}
+                secao={'sobreMim'}
             >
                 <HeaderText>{ sobreMim.destaque }</HeaderText>
                 <Paragrafo>{ sobreMim.texto }</Paragrafo>
             </ContainerTemplate>
             <ContainerTemplate 
                 title={'Projetos em destaque'}
+                secao={'projetos'}
             >
-                <ContainerProjetos>
+                <ContainerProjetos> 
                     <Projetos/>
                 </ContainerProjetos>
             </ContainerTemplate>
             <ContainerTemplate
-                title={'Contatos'}>
+                title={'Contatos'}
+                secao={'contatos'}
+                >
                     <Contatos />
             </ContainerTemplate>
         </main>
