@@ -66,8 +66,8 @@ const Projetos = () =>
         <ContainerBox>
             {projetosDestaque.map((projeto) => 
             <div key={projeto.id}>
-                <Container onMouseEnter={() => mudaAtivo(projeto.id)} onMouseLeave={() => mudaAtivo(projeto.id)}>
-                    <ImagemProjeto src={projeto.imagem} alt="Imagem do Projeto" $ativo={projeto.ativo}/>
+                <Container onMouseEnter={() => mudaAtivo(projeto.id)} onMouseLeave={() => mudaAtivo(projeto.id)} $ativo={projeto.ativo}>
+                    <ImagemProjeto src={projeto.imagem} alt="Imagem do Projeto" $ativo={projeto.ativo} />
                     <ContainerDesc $ativo={projeto.ativo}>
                         <Titulo>
                             { projeto.nome }
