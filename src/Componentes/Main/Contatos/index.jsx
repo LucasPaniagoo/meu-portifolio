@@ -15,6 +15,10 @@ const ImagemContato = styled.img`
 `
 const LinkContato = styled.a`
     text-decoration: none;
+    &:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
 `
 const Contatos = () => 
 {
