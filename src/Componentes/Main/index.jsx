@@ -14,9 +14,13 @@ const HeaderText = styled.h3`
     font-size: 20px;
     font-weight: 700;
     width: 100%;
-    text-align: center;
+    margin: 0 40px;
+    text-align: left;
     margin-top: 20px;
     color: ${(props) => props.theme.text};
+    @media screen and (max-width:430px){
+        font-size: 14px;
+    }
 `
 const Paragrafo = styled.p`
         height: fit-content;
@@ -26,6 +30,9 @@ const Paragrafo = styled.p`
         text-align: justify;
         color: ${(props) => props.theme.text};
         margin: 20px 40px;
+        @media screen and (max-width:430px){
+        font-size: 12px;
+    }
 `
 const ContainerProjetos = styled.div`
     margin: 30px 0;

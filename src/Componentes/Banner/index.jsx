@@ -7,6 +7,31 @@ const BannerEstilizado = styled.section`
     align-items: center;
     gap: 100px;
     margin: 5em 0;
+    @media screen and (max-width:884px){
+        margin: 3em 1em;
+        gap: 50px;
+        h1{
+            font-size: 48px;
+        }
+        h2{
+            font-size: 36px;
+        }
+        img{
+            width: 25%;
+        }
+    }
+    @media screen and (max-width:430px){
+        gap: 15px;
+        h1{
+            font-size: 28px;
+        }
+        h2{
+            font-size: 18px;
+        }
+        img{
+            width: 40%;
+        } 
+    }
 `
 const Titulo = styled.h1`
     font-family: 'JetBrains Mono', sans-serif;

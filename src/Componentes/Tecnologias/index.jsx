@@ -11,6 +11,9 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     margin-right: 40px;
+    @media screen and (max-width:884px){
+        margin-right: 0px;
+    }
 `
 const ContainerTec = styled.div`
     background-color: ${(props) => props.theme.primary};
@@ -29,6 +32,9 @@ const ContainerTec = styled.div`
     p{
         margin-left: 20px;
     }
+    @media screen and (max-width:884px){
+        display: none;
+    }
 `
 const ContainerBadge = styled.div`
     display: flex;
@@ -38,6 +44,9 @@ const ContainerBadge = styled.div`
     padding: 14px;
     border-radius: 50px;
     position: relative;
+    @media screen and (max-width:884px){
+        gap: 15px;
+    }
 `
 const tecnologias = [
     {

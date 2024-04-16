@@ -27,6 +27,9 @@ const HeaderEstilizado = styled.nav`
             }
         }
     }
+    @media screen and (max-width: 430px){
+        display: none;
+    }
 
 `
 const Botao = styled.button`
