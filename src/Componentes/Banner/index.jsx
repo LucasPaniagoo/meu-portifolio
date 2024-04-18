@@ -21,6 +21,7 @@ const BannerEstilizado = styled.section`
         }
     }
     @media screen and (max-width:430px){
+        margin: 20px 0 50px 0;
         gap: 15px;
         h1{
             font-size: 28px;

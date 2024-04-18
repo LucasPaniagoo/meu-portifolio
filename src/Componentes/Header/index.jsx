@@ -1,7 +1,7 @@
-import logoLight from './logo-light.png';
-import logoDark from './logo-dark.png';
-import lightMode from './sun.png';
-import darkMode from './moon.png';
+import logoLight from './images/logo-light.png';
+import logoDark from './images/logo-dark.png';
+import lightMode from './images/sun.png';
+import darkMode from './images/moon.png';
 import styled from 'styled-components';
 
 const HeaderEstilizado = styled.nav`
@@ -9,10 +9,10 @@ const HeaderEstilizado = styled.nav`
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
+    margin: 0 40px;
     a>img{
         width: 100px;
         height: 70px;
-        margin-left: 40px;
     }
     div{
         display: flex;
@@ -28,19 +28,26 @@ const HeaderEstilizado = styled.nav`
         }
     }
     @media screen and (max-width: 430px){
-        display: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
+        div{
+            display: none;
+        }
     }
 
 `
 const Botao = styled.button`
     border: none;
     background-color: transparent;
-    width: 31px;
-    margin-right: 40px;
     img{
+        margin: 0 5px;
         width: 30px;
-        height: 24px;
+        height: 25px;
         cursor: pointer;
+    }
+    @media screen and (max-width: 430px){
+
     }
 `
 

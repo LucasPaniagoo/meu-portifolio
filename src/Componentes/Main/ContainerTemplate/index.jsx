@@ -7,7 +7,7 @@ const Section = styled.section`
     margin-top: 100px;
     @media screen and (max-width:430px){
         width: 330px;
-        margin: 100px auto auto auto;
+        margin: 50px auto auto auto;
     }
 `
 const Head = styled.div`
