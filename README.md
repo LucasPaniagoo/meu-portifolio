@@ -4,15 +4,12 @@ Este projeto é o meu portfólio pessoal, desenvolvido com o objetivo de **expor
 
 🔗 [Acesse o portfólio online](https://paniago-portifolio.vercel.app/)
 
----
 
 ## 💡 Sobre o Projeto
 
 O portfólio foi construído utilizando **React** com **Vite**, priorizando **performance** e **modularidade**. Ele conta com um layout totalmente responsivo, adaptando-se perfeitamente a diferentes tamanhos de tela — seja no computador ou no celular.
-
 Também foi implementada a funcionalidade de **tema claro e escuro**, proporcionando uma experiência personalizada para o usuário.
 
----
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -21,7 +18,6 @@ Também foi implementada a funcionalidade de **tema claro e escuro**, proporcion
 - **Styled Components** – para estilização com suporte a temas
 - **Responsividade** com CSS-in-JS
 
----
 
 ## 🎯 Objetivo do Projeto
 
@@ -32,7 +28,6 @@ Este portfólio foi criado com o propósito de **expor meus projetos pessoais** 
 - Organização de componentes reutilizáveis
 - Estilização com **Styled Components**
 
----
 
 ## 📸 Demonstração
 
