@@ -49,8 +49,8 @@ const Subtitulo = styled.h2`
     color: ${(props) => props.theme.title};
 `
 const Imagem = styled.img`
-    width: 288px;
-    height: 290;
+    width: 400px;
+    height: 400;
 `
 const Banner = () => 
 {
