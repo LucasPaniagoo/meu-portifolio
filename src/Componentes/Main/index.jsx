@@ -4,10 +4,10 @@ import Projetos from './Projetos';
 import Contatos from './Contatos';
 
 const sobreMim = {
-    titulo: 'Bio',
-    destaque: 'Minha Jornada na Tecnologia',
-    texto: 'Meu interesse por programação se iniciou ainda no ensino médio, o que me motivou a cursar Análise e Desenvolvimento de Sistemas. Como precisei trabalhar desde cedo, iniciei minha jornada profissional na área de suporte técnico, sempre com o objetivo claro de migrar para o desenvolvimento.' + 
-           ' Atualmente, concilio trabalho e estudos com foco total em me tornar desenvolvedor. Tenho me dedicado ao backend com Java, além de explorar o frontend com React, HTML, CSS e JavaScript. Mesmo com os desafios, nunca deixei a tecnologia de lado — é nessa área que me encontro e quero crescer.',
+    titulo: 'Sobre Mim',
+    destaque: 'Um apaixonado por desenvolvimento',
+    texto: 'Sou Lucas Paniago, tenho 21 anos e 6 anos de experiência acadêmica na área de tecnologia.' + 
+           'Durante esses anos detive contato com diversos âmbitos da informática, como: redes, desenvolvimento, suporte ao usuário, entre outros.',
 }
 const HeaderText = styled.h3`
     font-family: 'Ubuntu', sans-serif;
@@ -15,7 +15,7 @@ const HeaderText = styled.h3`
     font-weight: 700;
     width: 100%;
     margin: 0 40px;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
     color: ${(props) => props.theme.text};
     @media screen and (max-width:430px){
@@ -23,10 +23,9 @@ const HeaderText = styled.h3`
     }
 `
 const Paragrafo = styled.p`
-        line-height: 1.5;
         height: fit-content;
         font-family: 'Ubuntu', sans-serif;
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
         text-align: justify;
         color: ${(props) => props.theme.text};
